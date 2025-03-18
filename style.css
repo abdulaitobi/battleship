@@ -1,0 +1,33 @@
+#player-board-div {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);  
+    grid-template-rows: repeat(10, 1fr);
+    width: fit-content;
+    height: fit-content;
+}
+
+#boards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#puter-board-div {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);  
+    grid-template-rows: repeat(10, 1fr);
+    width: fit-content;
+    height: fit-content;
+}
+
+#random-btn, #start-btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
