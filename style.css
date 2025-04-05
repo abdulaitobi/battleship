@@ -29,5 +29,20 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
 
+#reset-btn{
+    display: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reset-btn:hover, #random-btn:hover, #start-btn:hover{
+    background-color: #45a049;
 }
